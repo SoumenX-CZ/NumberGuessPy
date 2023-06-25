@@ -5,7 +5,7 @@ number=random.randint(1, 200)
 def intro():
     print("Jméno?")
     name=input() 
-    print(name + ", zahrajeme si hru. Myslím si číslo od 0 do 200.")
+    print(name + ", zahrajeme si hru. Myslím si číslo od 1 do 200.")
     time.sleep(.5)
     print("Tak pojď. Hádej.")
 
@@ -30,9 +30,9 @@ def pick():
                 if guess==number:
                     break 
             if guess>200 or guess<1:
-                print("Říkal jsem od 0 do 200.")
+                print("Říkal jsem od 1 do 200.")
                 time.sleep(.25)
-                print("Prosím zadej tedy číslo od 0 do 200.")
+                print("Prosím zadej tedy číslo od 1 do 200.")
 
         except: 
             print("Nemyslím si že, "+enter+" je číslo.")
