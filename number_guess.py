@@ -3,7 +3,7 @@ import time
 number=random.randint(1, 200)
 
 def intro():
-    print("Jméno?")
+    print("Jak se jmenuješ?")
     name=input() 
     print(name + ", zahrajeme si hru. Myslím si číslo od 1 do 200.")
     time.sleep(.5)
