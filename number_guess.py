@@ -1,14 +1,16 @@
 import random
 import time
 number=random.randint(1, 200)
+#safůwodfnikdsa
 
+#asdflwpniekd
 def intro():
     print("Jak se jmenuješ?")
     name=input() 
     print(name + ", zahrajeme si hru. Myslím si číslo od 1 do 200.")
     time.sleep(.5)
     print("Tak pojď. Hádej.")
-
+#asdlfwpndidkwl
 def pick():
     guessesTaken = 0
     while guessesTaken < 6:
@@ -25,6 +27,7 @@ def pick():
                     if guess>number:
                         print("Číslo, které musíš uhodnout je menší.")
                     if guess != number:
+                        #asdflkwdnifniak
                         time.sleep(.5)
                         print("Zkus to znova.")
                 if guess==number:
@@ -43,6 +46,7 @@ def pick():
 
     if guess != number:
         print('Bohužel číslo, které jsi musel/a uhodnout bylo: ' + str(number))
+#asldfkjownodf
 
 playagain="yes"
 while playagain=="yes" or playagain=="y" or playagain=="Yes":
